@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         *{padding: 0; margin: 0;} /*  */
+        ul, li {list-style: none;}
+        img{max-width: 100%; height: auto;}
+
+        .gnb-box{
+            text-align: center;
+            background-color: black;
+        }
+        
+        .gnb > li {
+            display: inline-block;
+        }
+        
+        .gnb > li > a {
+            display: block;/* 너비, 높이 지정 가능해짐 */
+            width: 100px;
+            /* height: 70px;
+            line-height: 70px; */
+            padding:20px 10px;
+            color: lightpink;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            
+            height: 60px;
+            box-sizing: border-box;
+
+
+            
+        }
+
+        .gnb > li > a:hover{
+            border-bottom: 3px solid #fff;
+        }
+
+        .box{
+            width:1000px;
+            margin:0 auto;/* 마진을 가운데로보내기 */
+        }
+        
+        .box > .a1{
+            border: 1px solid #777;
+            padding: 30px;
+        }
+
+        section{margin-top:88px;}
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav class="gnb-box">
+            <ul class="gnb">
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+            </ul>
+
+    </header>
+    
+
+    </nav>
+    
+    <article>
+        <img src="1.png">
+    </article>
+
+    
+    <section>
+
+        <div class="box">
+            <h3>오늘의 발견</h3>
+            <div class="a1">
+                <b>가나다라마바사</b><br>
+                <b>가나다라마바사</b><br>
+                <b>가나다라마바사</b><br>
+                <b>가나다라마바사</b><br>
+                <b>가나다라마바사</b><br>
+                <b>가나다라마바사</b><br>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
+</html>
