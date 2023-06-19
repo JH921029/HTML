@@ -1,0 +1,20 @@
+@import url('reset.css');
+
+
+.hat{ border: 1px solid #777; height:110px; margin:a auto; position: fixed; left:0; top:0; background-color: #fff; width: 100%; text-align: center; }
+.hat .title{border: 1px solid #777; margin: 0 auto; text-align: center;}
+
+
+.hat .sns{ position:absolute; top:0; left:0; overflow: hidden;}
+.hat .sns div{float:left;}
+.hat .login{position:absolute; top:0; right:0; overflow: hidden;}
+.hat .login div{float: right; }
+
+.hat .menu{text-align: center; padding-top: 20px;}
+.hat .menu > div{display: inline; margin-left: 20px; }
+
+
+.mid{border-top: 1px solid #ff0000; border-bottom: 1px dashed #777;}
+
+.foot .photo{text-align: center; padding-bottom: 500px;}
+.foot .photo .left{float: left; }
