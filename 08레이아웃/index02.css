@@ -1,20 +1,38 @@
 @import url('reset.css');
 
+header{position: relative; position:sticky; top:0; background-color: #fff;}
+header h1{text-align: center;}
 
-.hat{ border: 1px solid #777; height:110px; margin:a auto; position: fixed; left:0; top:0; background-color: #fff; width: 100%; text-align: center; }
-.hat .title{border: 1px solid #777; margin: 0 auto; text-align: center;}
-
-
-.hat .sns{ position:absolute; top:0; left:0; overflow: hidden;}
-.hat .sns div{float:left;}
-.hat .login{position:absolute; top:0; right:0; overflow: hidden;}
-.hat .login div{float: right; }
-
-.hat .menu{text-align: center; padding-top: 20px;}
-.hat .menu > div{display: inline; margin-left: 20px; }
+header .sns{position:absolute; overflow: hidden; left:15px; top: 20px;} 
+header .sns > li{float:left; text-indent: -9999px; width: 32px; height: 32px; background: url('social.png') no-repeat;}
+ul.sns li:nth-child(2) {background-position: -32px 0;}
+ul.sns li:nth-child(3) {background-position: -64px 0;}
+ul.sns li:nth-child(4) {background-position: -96px 0;}
 
 
-.mid{border-top: 1px solid #ff0000; border-bottom: 1px dashed #777;}
+header .login{position:absolute; right:0; top:0;}
+header .login > li{float:right; padding-top:20px; padding-right: 20px; color:#777; font-size: 13px;}
+header .login > li > a{display: block;}
 
-.foot .photo{text-align: center; padding-bottom: 500px;}
-.foot .photo .left{float: left; }
+header .menu{text-align: center;}
+header .menu > li{display: inline-block; }
+header .menu > li > a{display: block; text-decoration: none; color: #777; padding:20px 30px;}
+
+
+.mid1{background-image: url('main.jpg'); 
+              margin-top: 20px;
+              height: 500px;
+              border-top: 3px solid red;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;}
+.mid1 > div{text-align: center; color:#fff; padding-top:100px;}
+
+.mid2{text-align: center;}
+.mid2 > div{display: inline-block; padding-right: 100px; margin-bottom: 100px;}
+.mid2 > div > h1{color: #777;}
+
+footer{overflow: hidden;}
+footer .foot{overflow: hidden; border-top:3px solid #777; margin: 10px 0px;}
+.left{float: left; margin:10px;}
+.right{float:right; margin:10px;}
